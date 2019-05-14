@@ -1,0 +1,61 @@
+/* pages/home/home.wxss */
+
+.top {
+  height: 80rpx;
+  width: 100%;
+  background-color: #e6b63e;
+  padding: 20rpx;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.top-search {
+  border-radius: 20rpx;
+  padding-left: 25rpx;
+  background-color: #fff;
+  height: 50rpx;
+  width: 688rpx;
+  font-size: 30rpx;
+  margin-top: 15rpx;
+}
+
+.hongbanner {
+  width: 100%;
+  height: 100%
+}
+
+.bannerbox {
+  margin-top: 61px;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.homelist {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.homechild {
+  margin-top: 3px;
+  width: 48%;
+  height: 700rpx;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px #333;
+}
+
+.list-img {
+  width: 100%;
+  /* border: 1px solid #000; */
+}
+
+.textlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}

@@ -1,0 +1,27 @@
+<!--pages/home/home.wxml-->
+<view>
+  <view class="top">
+    <input class='top-search' type='text' placeholder='在所有商品中搜索' bindconfirm='searchDog'></input>
+  </view>
+  <view class='bannerbox'>
+    <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{500}}" circular="{{true}}">
+      <block wx:for="{{banner}}" wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item.coverURL}}" class="slide-image hongbanner" width="100%" height="240" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='homelist'>
+    <view wx:for="{{homeList}}" wx:key="{{index}}" class='homechild'>
+      <navigator url="../good-detail/good-detail?petID={{item.petID}}&name={{item.name}}">
+        <image src='{{item.coverURL}}' class='list-img' />
+        <view class='textlist'>
+          <text>{{item.name}}</text>
+          <text>{{item.engName}}</text>
+          <text>{{item.price}}</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>

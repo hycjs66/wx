@@ -1,0 +1,17 @@
+/* pages/good-detail/good-detail.wxss */
+
+.mz {
+  width: 80%;
+  margin-left: 50rpx;
+}
+
+.p1 {
+  display: block;
+  margin-top: 20rpx;
+}
+
+image {
+  width: 94%;
+  height: 350rpx;
+  margin-left: 3%;
+}

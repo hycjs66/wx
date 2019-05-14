@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/classfiy/classfiy",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/good-detail/good-detail",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "狗狗大全",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "8a8a8a",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/home-off.png",
+        "selectedIconPath": "images/home-on.png"
+      },
+      {
+        "pagePath": "pages/classfiy/classfiy",
+        "text": "分类",
+        "iconPath": "images/fenlei-off.png",
+        "selectedIconPath": "images/fenlei-on.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "i-card": "../dist/card/index",
+    "i-notice-bar": "../dist/notice-bar/index",
+    "i-modal": "../dist/modal/index",
+    "i-rate": "../dist/rate/index",
+    "i-grid": "../dist/grid/index",
+    "i-row": "../dist/row/index",
+    "i-col": "../dist/col/index"
+  }
+}
